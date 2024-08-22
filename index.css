@@ -9,7 +9,7 @@ body {
 #container {
     max-width: 80%;
     margin: 100px auto;
-    background-color: rgba(245,245,220,0.5);
+    background-color: rgba(245, 245, 220, 0.8);
     padding: 25px 0;
     border-radius: 15px;
 }
@@ -40,13 +40,24 @@ button {
     background: darkblue;
 }
 
+#increment-btn:hover {
+    box-shadow: 0 0 10px, whitesmoke;
+}
+
 #save-btn {
     background: darkgreen;
 }
 
+#save-btn:hover {
+    box-shadow: 0 0 10px, whitesmoke;
+}
+
 #reset-btn {
     background: darkred;
+}
 
+#reset-btn:hover {
+    box-shadow: 0 0 10px, whitesmoke;
 }
 
 #save-el {
